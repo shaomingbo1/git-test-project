@@ -13,6 +13,7 @@
     <modules>
         <module>spring_demo1</module>
         <module>spring_demo2</module>
+        <module>spring_demo3</module>
     </modules>
 
     <properties>
@@ -59,7 +60,18 @@
                 <version>4.12</version>
                 <scope>test</scope>
             </dependency>
-
+            <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.1.9</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>5.2.6.RELEASE</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

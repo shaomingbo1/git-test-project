@@ -1,2 +1,5 @@
-package com.atguigu.spring5.dao;public interface UserDao {
+package com.atguigu.spring5.dao;
+
+public interface UserDao {
+    public void add();
 }

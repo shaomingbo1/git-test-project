@@ -1,2 +1,8 @@
-package com.atguigu.spring5.testdemo;public class TestSpring5Demo1 {
+package com.atguigu.spring5.testdemo;
+
+
+import org.springframework.stereotype.Component;
+
+public class TestSpring5Demo1 {
+
 }
